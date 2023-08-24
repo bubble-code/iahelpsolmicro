@@ -1,0 +1,27 @@
+c:\Users\a.obregon\.conda\envs\kMeans\Lib\site-packages\tqdm\auto.py:21: TqdmWarning: IProgress not found. Please update jupyter and ipywidgets. See https://ipywidgets.readthedocs.io/en/stable/user_install.html
+  from .autonotebook import tqdm as notebook_tqdm
+Por un lado nos permitirá saber qué artículos de mi base de datos se encuentran activos en mis actividades y por otra mantendrá un histórico sobre los artículos obsoletos determinantes para realizar valoraciones en almacenes de material remanente.
+Un ejemplo de la particularidad de gestión de los artículos reside en los aspectos que requiere para realizar correctamente las funciones esperadas.
+Permite crear nuevos Estados que permitan identificar fases de la evolución de los artículos, como por ejemplo, los artículos obsoletos.
+Configura los Contadores o los Criterios para la Codificación Avanzada de artículos.
+Tendremos especial cuidado al realizar los registros de los artículos ya que de ello depende el correcto funcionamiento del sistema.
+Para obtener el código del artículo, pulsa sobre el botón Acceso a la codificación automática y avanzada de artículos .
+Proceso:
+Acude a Estados de Artículos.
+El control de Estados del artículo permite realizar una gestión de la evolución y operativa de los mismos.
+Codificar automáticamente los artículos a partir de los identificadores de Tipo y Familia de artículo.
+Un artículo puede ser una Mercadería o los Servicios que ofrecemos, también la Materia Prima o los Semielaborados (producto que aunque no sea el producto final de su proceso de producción, desea llevar un control de stock y de costes, por ejemplo), un nivel de agrupación para varios artículos, etc.
+Configuración Previa
+El uso de la codificación avanzada requiere no utilizar un Contador predeterminado asociado a la entidad: Artículos.
+Esto hace que un artículo pueda tener una estructura que deberá definir, así como un alcance que deberá indicar: ¿controlo o no su stock?, ¿es un artículo comercializable?
+Artículos Activos y sin Uso
+Permite localizar los articulos que no han tenido movimientos desde una fecha determinada con la finalidad de saber en todo momento qué articulos tenemos y no usamos.
+A continuación detallamos los parámetros funcionales y los maestros de información auxiliar necesaria para la correcta gestión de los artículos.
+En este manual veremos cómo realizar la Clasificación de los Artículos, la Información de la Ficha del Artículo, el proceso de Registro y los procesos asociados al Alcance funcional que requiramos.
+Se establecen a nivel del Tipo de Artículoy pasan al Artículo (apartado Almacenes) de forma predeterminada con el objetivo de facilitar el registro y gestión de referencias pudiéndose modificar en el artículo.
+Estados de Artículo
+Muestra la información correspondiente a los distintos Estados susceptibles de asociar a cada uno de los artículos, productos o referencias.
+La descripción propuesta se crea a partir de la descripción del artículo padre añadiéndole el texto descriptivo de las variables utilizadas, según el ejemplo se propone: Pantalla PC LCD modelo ZK10_14’’, etc.
+Selecciona de los artículos pre-generados los que deseas registrar ya que puede ocurrir que alguna de las combinaciones obtenidas no vaya a ser gestionada y por lo tanto no interese crear la correspondiente ficha de artículo.
+Efectos:
+En la información del artículo (apartado Unidades/Precios) se registran/muestran las Unidades empleadas en los circuitos de Venta, Compra y Almacén del artículo.
